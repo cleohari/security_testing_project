@@ -1,4 +1,4 @@
-FROM mysql:5.5
+FROM mysql:5.7.43
 
 # prepare the database
 COPY sql/01_SchoolMate.sql /docker-entrypoint-initdb.d/01_SchoolMate.sql
